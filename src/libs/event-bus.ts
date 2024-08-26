@@ -1,4 +1,4 @@
-import { AccountAppValue, Contracts, ValuesContracts } from './contracts';
+import { AccountAppValue, Contracts, ValuesContracts } from "./contracts";
 
 export interface GenericObservable<T> {
   next: (value: T) => void;
